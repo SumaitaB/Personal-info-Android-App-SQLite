@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Personal Details Form"
+        android:textAlignment="center"
+        android:textColor="@color/blue"
+        android:textSize="40dp"
+        android:background="@color/white"
+        />
+
+    <EditText
+        android:id="@+id/fnid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="First Name"
+        android:layout_margin="10dp"
+        android:textColorHint="@color/black"
+        android:textSize="20dp"
+        android:inputType="text"
+        android:padding="15dp" />
+
+    <EditText
+        android:id="@+id/lnid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Last Name"
+        android:textColorHint="@color/black"
+        android:textSize="20dp"
+        android:inputType="text"
+        android:padding="15dp" />
+
+    <EditText
+        android:id="@+id/regid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Registration No"
+        android:textColorHint="@color/black"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:inputType="text"
+        android:padding="15dp" />
+
+    <EditText
+        android:id="@+id/pnid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone No"
+        android:textColorHint="@color/black"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:inputType="text"
+        android:padding="15dp" />
+
+
+    <EditText
+        android:id="@+id/mailid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="User Email"
+        android:textColorHint="@color/black"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:inputType="textEmailAddress"
+        android:padding="15dp" />
+
+    <EditText
+        android:id="@+id/passid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textColorHint="@color/black"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:inputType="textPassword"
+        android:padding="15dp" />
+
+    <EditText
+        android:id="@+id/adrsid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Adress"
+        android:textColorHint="@color/black"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:inputType="text"
+        android:padding="15dp" />
+
+
+
+    <Button
+        android:id="@+id/saveid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Data"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        />
+
+
+
+
+</LinearLayout>
